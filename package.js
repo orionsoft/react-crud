@@ -1,7 +1,7 @@
 Package.describe({
   name: 'orionsoft:react-crud',
   version: '0.0.1',
-  summary: 'CRUD components that for Meteor, React and Material UI',
+  summary: 'CRUD components for Meteor, React and Material UI',
   git: 'https://github.com/orionsoft/collection-list',
   documentation: 'README.md'
 })
