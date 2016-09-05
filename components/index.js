@@ -1,5 +1,6 @@
 import React from 'react'
 import {Form, Field} from 'simple-react-form'
+import Text from 'simple-react-form-material-ui/lib/text'
 import IconButton from 'material-ui/IconButton'
 import {List} from 'meteor/orionsoft:collection-list'
 import SaveStateComponent from './save-state'
@@ -127,7 +128,7 @@ export default class Index extends SaveStateComponent {
         <Field
         fieldName='filter'
         hintText='Search'
-        type='text'/>
+        type={Text}/>
       </Form>
     )
   }
